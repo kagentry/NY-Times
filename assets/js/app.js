@@ -116,6 +116,9 @@ $("#search-btn").on("click", function(event) {
 
 });
 
+$("#clear").on("click", function(){
+  $("#well-section").empty();
+})
 // 1. Retrieve user inputs and convert to variables
 // 2. Use those variable to run an AJAX call to the New York Times.
 // 3. Break down the NYT Object into useable fields
